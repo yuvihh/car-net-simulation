@@ -1,0 +1,34 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --控制面板宽度: 720px;
+}
+
+#容器 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+#cesiumContainer {
+    width: calc(100% - var(--控制面板宽度));
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#应用 {
+    width: var(--控制面板宽度);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
